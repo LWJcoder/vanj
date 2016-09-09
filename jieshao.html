@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>INTRODUCE</title>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.bootcss.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+.container{
+   height: 700px;
+    background-color: #1abc9c;
+    width: 100%;
+}
+
+  .img1{
+   
+    color: #fff;
+    padding-top: 80px;
+  }
+
+  .nav-header{
+    color: #fff;
+    font-size: 32px;
+  }
+
+.nav li{
+  color: #fff;
+}
+a{
+  text-decoration: none;
+}
+
+
+.py{
+      width: 80px;
+  } 
+
+  .dropdown-menu{
+  margin-left: 300px;
+
+    }
+ .circle{
+  width:400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 1px dashed #ccc;
+
+ }
+
+ .path{
+  padding-top: 150px;
+ }
+  @keyframes spin {
+  to {transform: rotate(1turn);} 
+  }
+
+  .rotate{
+    animation: spin 3s infinite linear;
+    transform-origin: 50%　150px;
+  }
+
+  .rotate > img {
+    animation: inherit;
+    animation-direction: reverse;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+
+  ul{
+    list-style: none;
+  }
+	/*模糊效果*/
+  .emph{
+    -webkit-filter: blur(3px) brightness(.3) contrast(.4);
+    left:0;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .contact{
+    display: none;
+    left: 50%; 
+    z-index: 1000;
+    top: 50%;
+  }
+
+  .text ul{
+  	font-size: 2em;
+  	display: inline;
+  	position: absolute;
+  	margin-left: 525px; 
+
+  }
+  </style>
+
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+   <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+    <div class="nav-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">   Personal Intrudation</a>
+   
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#">Major In</a></li>
+      <li><a href="#">Experience</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </div>
+    </nav>
+
+<div class="container">
+
+
+  <div class="img1 text-center">
+    <img src="01.jpg" class="img-circle">  
+  </div>
+
+<div class="circle">
+    <div class="path">
+    <div class="rotate">
+      <img src="python.jpg" alt="python" class="py img-circle">
+
+    </div>
+  </div>
+	
+	<div class="text">
+		<ul>
+			<li>JavaScript： 注重于原生JavaScript的编写</li>
+			<li>Jquery： 亦能信手拈来</li>
+			<li>Python： 用最少的语言来将任务完成</li>
+		</ul>
+	</div>
+
+
+</div>
+
+</body>
+</html>
